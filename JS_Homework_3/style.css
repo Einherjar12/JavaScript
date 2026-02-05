@@ -1,0 +1,38 @@
+/* Общие стили страницы */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+/* Кнопки */
+button {
+    background-color: #3498db; /* основной цвет кнопки */
+    color: white; /* текст белый */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Эффект при наведении */
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Отступы между кнопками */
+button + button {
+    margin-top: 10px;
+}
